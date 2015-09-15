@@ -2,11 +2,11 @@ Pod::Spec.new do |spec|
   spec.name         = 'TwentyFourSeven'
   spec.version      = '0.0.1'
   spec.license      = { :type => 'MIT' }
-  spec.homepage     = "https://github.com/dommmel/TwentyFourSeven"
+  spec.homepage     = "https://github.com/FrostDigital/TwentyFourSeven"
   spec.authors      = { "Dominik Heier" => "dommmel@gmail.com" }
   spec.summary      = 'Schedule when your app should be allowed to go idle and when it should not'
   spec.source       = { 
-    :git => 'https://github.com/dommmel/TwentyFourSeven.git', 
+    :git => 'https://github.com/FrostDigital/TwentyFourSeven.git', 
     :tag => spec.version.to_s 
   }
   spec.source_files = '*.swift'
