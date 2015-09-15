@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     :tag => spec.version.to_s 
   }
   spec.source_files = '*.swift'
-  spec.ios.deployment_target = '8.0'
+  spec.ios.deployment_target = '7.0'
   spec.requires_arc = true
   spec.resource_bundle = { 'Settings' => 'ShopHours.plist' }
   spec.dependency 'NSUserDefaults+SettingsBundle', '~> 0.0.2'
